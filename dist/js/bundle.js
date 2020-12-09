@@ -1,0 +1,1 @@
+(()=>{"use strict";new class{constructor(e){this.headerTitle=e}}("My Lunch Generator"),new class{constructor(){this.renderTemplate()}renderTemplate(){document.body.innerHTML="\n        \n        "}}})();
