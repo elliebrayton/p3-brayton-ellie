@@ -1,1 +1,1 @@
-(()=>{"use strict";new class{constructor(e){this.headerTitle=e}}("My Lunch Generator"),new class{constructor(){this.renderTemplate()}renderTemplate(){document.body.innerHTML="\n        \n        "}}})();
+(()=>{"use strict";const e=new class{constructor(e,t){this.headerTitle=e,this.headerText=t}}("My Lunch Generator","What should I have for lunch today?");new class{constructor(){this.renderTemplate()}renderTemplate(){const t=`\n      <header>\n        <h1>${e.headerTitle}</h1>\n        <p>${e.headerText}</p>\n      </header>\n        `;document.body.innerHTML=t}}})();
