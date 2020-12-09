@@ -1,6 +1,7 @@
 import './main.css';
 import { header } from './modules/header';
 import { lunchGenerator } from './modules/lunch-generator';
+import { footer } from './modules/footer';
 
 class App {
 
@@ -20,6 +21,9 @@ class App {
       <img id="image" src="${lunchGenerator.img}">
       <p id="quote">${lunchGenerator.name}</p>
       </main>     
+      <footer>
+      <button id="button">${footer.button}</button>
+      </footer>
         `;
   
       document.body.innerHTML = template;
