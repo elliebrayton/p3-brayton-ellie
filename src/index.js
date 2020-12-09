@@ -1,5 +1,6 @@
 import './main.css';
 import { header } from './modules/header';
+import { lunchGenerator } from './modules/lunch-generator';
 
 class App {
 
@@ -12,7 +13,7 @@ class App {
       <header>
         <h1>${header.headerTitle}</h1>
         <p>${header.headerText}</p>
-      </header>
+      </header>      
         `;
   
       document.body.innerHTML = template;
