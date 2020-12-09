@@ -6,6 +6,7 @@ class App {
 
     constructor() {
       this.renderTemplate();
+      lunchGenerator.showResult();
     }
   
     renderTemplate() {
@@ -13,7 +14,11 @@ class App {
       <header>
         <h1>${header.headerTitle}</h1>
         <p>${header.headerText}</p>
-      </header>      
+      </header> 
+      <main>
+      <h2 id="name">${lunchGenerator.name}</h2>
+      <img id="image" src="${lunchGenerator.img}">
+      </main>     
         `;
   
       document.body.innerHTML = template;
