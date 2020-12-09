@@ -18,6 +18,7 @@ class App {
       <main>
       <h2 id="name">${lunchGenerator.name}</h2>
       <img id="image" src="${lunchGenerator.img}">
+      <p id="quote">${lunchGenerator.name}</p>
       </main>     
         `;
   
